@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "neos/neos": "^3.0"
+        "neos/flow": "^4.0"
     },
     "autoload": {
         "psr-4": {
