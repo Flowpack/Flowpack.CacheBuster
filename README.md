@@ -14,3 +14,18 @@ The output for those resources is modified by appending a shortened sha1 of the 
 
 This package provides an aspect which is automatically active 
 and enabled cache busting without any further modification.
+
+### Compatibility with mod_pagespeed
+
+Add the following to your webserver configuration to allow pagespeed
+to optimize resources with the cache bust query parameter.
+
+#### nginx
+
+    pagespeed Allow "*";
+    
+#### Apache
+
+    ModPagespeedAllow "*"
+    
+Or be more specific by just allowing the `*?bust=*`.
