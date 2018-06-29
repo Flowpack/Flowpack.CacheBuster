@@ -52,7 +52,7 @@ class CacheBusterAspect
             return $uri;
         }
 
-        if (!is_dir($resourcePath) && strpos($uri, 'bust') === false) {
+        if (!is_dir($resourcePath) && file_exists($resourcePath) && strpos($uri, 'bust') === false) {
             try {
                 $hash = 'bust=' . substr(sha1_file($resourcePath), 0, 8);
 
