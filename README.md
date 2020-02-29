@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/flowpack/cachebuster/v/stable)](https://packagist.org/packages/flowpack/cachebuster)
+[![Total Downloads](https://poser.pugx.org/flowpack/cachebuster/downloads)](https://packagist.org/packages/flowpack/cachebuster)
+[![License](https://poser.pugx.org/flowpack/cachebuster/license)](LICENSE)
+
 # Flowpack.CacheBuster
 
 Adds automatic cache busting for static resources in the frontend.
